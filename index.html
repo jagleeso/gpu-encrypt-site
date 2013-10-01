@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gpu-encrypt-site by jagleeso</title>
+    <title>GPU Encrypt by jagleeso</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -31,7 +31,7 @@
 
       <section>
         <div id="title">
-          <h1>Gpu-encrypt-site</h1>
+          <h1>GPU Encrypt</h1>
           <p></p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/jagleeso">jagleeso</a></span>
@@ -39,36 +39,23 @@
         </div>
 
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="summary" class="anchor" href="#summary"><span class="octicon octicon-link"></span></a>Summary</h3>
 
-<p>Test changing stuff.  This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Attackers who have physical access to mobile phones can potentially uncover private data pertaining to the original user.  Many existing encryption-decryption algorithms like Advanced Encryption Algorithm (AES) have used parallelism to improve the implementation of cryptographic modes.  Recently, frameworks have appeared for performing general-purpose parallel programming on GPUs (GPGPU), such as OpenCL. OpenCL provides a model for programming whereby a host processor (in this case, a CPU) delegates work to be performed in parallel by computing nodes (GPUs).  GPUs are attractive for parallel processing because these architectures have hundreds of processing cores and high bandwidth, delivering higher computing power from the same silicon area as a comparable microprocessor and using only a fraction of the power per calculation.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="goal" class="anchor" href="#goal"><span class="octicon octicon-link"></span></a>Goal</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The Nexus 4 phone from Google uses a Qualcomm Snapdragon S4 chipset which supports the OpenCL Embedded Profile, and comes with an Adreno 320 GPU.  We will investigate the trade-offs in computational time and power consumption that can be achieved on the Nexus 4 when comparing a software implementation of the AES encryption algorithm to an OpenCL GPU implementation.  Further, we will provide a framework through which regions of physical memory belonging to processes on the Nexus 4 can be encrypted when they are in an idle state, and investigate the overhead paid in battery consumption.</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>James Gleeson (<a href="https://github.com/jagleeso" class="user-mention">@jagleeso</a>) <a href="mailto:jagleeso@gmail.com">jagleeso@gmail.com</a></p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>Sreekumar Rajan (<a href="https://github.com/sreekumarrajan" class="user-mention">@sreekumarrajan</a>) <a href="mailto:sreekumar.rajan@gmail.com">sreekumar.rajan@gmail.com</a></p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Vinnie (<a href="https://github.com/vsaini123" class="user-mention">@vsaini123</a>) <a href="mailto:vsaini@cs.toronto.edu">vsaini@cs.toronto.edu</a></p>
       </section>
 
     </div>
